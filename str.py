@@ -35,7 +35,7 @@ class MusixMatchAPIConnection(ExperimentalBaseConnection[requests.Session]):
 musix_conn = MusixMatchAPIConnection(ConnectionError)
 
 def main():
-    st.title('MusixMatch Track Search')
+    st.title('MusixMatch: Generating Top-5 songs of a Country')
 
     # Search track
     api_key = st.text_input("Enter Musixmatch API key:")
